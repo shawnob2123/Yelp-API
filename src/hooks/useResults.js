@@ -20,7 +20,6 @@ export default () => {
     }
   };
   // call searchAPI when component is first rendered 
-  // BAD CODE ---> searchAPI('pasta')
   useEffect(() => {
     searchAPI('pasta');
   }, []);
